@@ -28,7 +28,7 @@ def main():
 
 	print number
 
-	# solution that doesn't modifies array but memory of O(1)
+	# solution that modifies array but memory of O(1)
 	for i in range(0, len(array)):
 		array[array[i]%k] += 2*k # using the mod operator and incrementing by a multiple of k ensures that we get the correct index
 
