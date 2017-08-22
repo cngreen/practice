@@ -23,7 +23,7 @@ def URLify(input, length):
 		input[x + 2 + shift] = "0"
 		x -= 1
 
-	return input
+	return ''.join(input)
 
 def main():
 	a = list(sys.stdin.readline())
